@@ -1,0 +1,8 @@
+# GnuPG specific
+gnupg/private-keys-v1.d/
+
+# SSH specific
+ssh/.ssh/authorized_keys
+ssh/.ssh/id_rsa
+ssh/.ssh/known_hosts
+
