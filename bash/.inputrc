@@ -6,6 +6,7 @@ $include /etc/inputrc
 ##      for more information related to the vi editing-mode.
 ## Note that ^L only works in command mode
 #set editing-mode vi
+#set keymap vi-command
 
 $if mode=emacs
     set keymap vi-insert
