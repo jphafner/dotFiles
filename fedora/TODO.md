@@ -15,6 +15,9 @@ auditctl
 hostnamectl
 semange
 
+## security
+/etc/audit/rules.d/
+
 ## packages
 workstation: Development, vim, etc...
 server: freeipa-server, etc...
@@ -23,8 +26,8 @@ openafs: check old admin scripts and freeipa, automount
 misc: powershell
 texlive
 publican: for books
-
 powerline, tmux-powerline
+
 
 ## commandline
 task
@@ -69,6 +72,7 @@ lua
 pidgeon-otr
 
 
+## Ansible??
 
 ## kickstarts
 -[ ] workstation
