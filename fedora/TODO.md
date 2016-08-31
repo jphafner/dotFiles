@@ -21,6 +21,8 @@ server: freeipa-server, etc...
 nas: freeipa-client, etc...
 openafs: check old admin scripts and freeipa, automount
 misc: powershell
+texlive
+publican: for books
 
 powerline, tmux-powerline
 
@@ -48,10 +50,19 @@ pdfgrep
 irc-otr
 surfraw,w3m
 curl,lftp
+powertop,iotop,xxxtop
+ngrep,tcpdump,nmap
+swatch,logwatch
 
 htop,
 dstat,sar,slurm,glanced,mtr,ttyrec,tipbt,socat,multitail,mtr
 ncdu
+
+## development
+go
+clang
+llvm
+lua
 
 
 # Graphical user
