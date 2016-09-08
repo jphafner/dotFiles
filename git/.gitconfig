@@ -1,0 +1,41 @@
+[user]
+    name = Jeffrey Hafner
+    email = jphafner@buffalo.edu
+[core]
+    editor = vim
+[credential]
+    helper = cache
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = always
+[alias]
+	st = status -sb
+	ci = commit
+	cim = commit -m
+	co = checkout
+	br = branch -v
+	rm = remote -v
+	bra = branch -a
+	aa = add --all
+	dh = diff HEAD^
+	puoh = push -u origin HEAD
+	rs = reset --soft HEAD^
+	rh = reset --hard HEAD^
+	m = merge --no-ff --no-commit
+	div = divergence
+	head = !git log -1
+	lo = !git log -20
+	loa = !git lo --all  
+[format]
+    pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+[push]
+  	default = upstream
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt=false
+
+

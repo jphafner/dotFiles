@@ -1,0 +1,16 @@
+# GnuPG specific
+gnupg/private-keys-v1.d/
+
+# SSH specific
+ssh/.ssh/authorized_keys
+ssh/.ssh/id_*
+ssh/.ssh/known_*
+
+# IPsoft specific
+ssh/.ssh/config_ipsoft
+
+## because I cannot use includes
+ssh/.ssh/config
+
+# Misc
+
