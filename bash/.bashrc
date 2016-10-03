@@ -5,6 +5,17 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+<<<<<<< HEAD
+=======
+## Powerline
+#if [ -f $(which powerline-daemon) ]; then
+#    powerline-daemon -q
+#    POWERLINE_BASH_CONTINUATION=1
+#    POWERLINE_BASH_SELECT=1
+#    source /usr/share/powerline/bash/powerline.sh
+#fi
+
+>>>>>>> refs/remotes/origin/master
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
@@ -56,12 +67,21 @@ export LESS_TERMCAP_so=$(tput bold; tput setaf 8; tput setab 3) # begin standout
 export LESS_TERMCAP_ue=$'\e[0m'     # end underline
 export LESS_TERMCAP_us=$'\e[04;32m' # begin underline
 
+<<<<<<< HEAD
 export LESS_TERMCAP_mr=$(tput rev)
 export LESS_TERMCAP_mh=$(tput dim)
 export LESS_TERMCAP_ZN=$(tput ssubm)
 export LESS_TERMCAP_ZV=$(tput rsubm)
 export LESS_TERMCAP_ZO=$(tput ssupm)
 export LESS_TERMCAP_ZW=$(tput rsupm)
+=======
+#export LESS_TERMCAP_mr=$(tput rev)
+#export LESS_TERMCAP_mh=$(tput dim)
+#export LESS_TERMCAP_ZN=$(tput ssubm)
+#export LESS_TERMCAP_ZV=$(tput rsubm)
+#export LESS_TERMCAP_ZO=$(tput ssupm)
+#export LESS_TERMCAP_ZW=$(tput rsupm)
+>>>>>>> refs/remotes/origin/master
 
 # http://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 

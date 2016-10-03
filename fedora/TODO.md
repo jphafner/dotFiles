@@ -24,9 +24,18 @@ server: freeipa-server, etc...
 nas: freeipa-client, etc...
 openafs: check old admin scripts and freeipa, automount
 misc: powershell
+<<<<<<< HEAD
 texlive
 publican: for books
 powerline, tmux-powerline
+=======
+
+texlive
+publican: for books
+powerline, tmux-powerline
+unar
+git, vim, tmux, gitk
+>>>>>>> refs/remotes/origin/master
 
 
 ## commandline
@@ -67,6 +76,14 @@ clang
 llvm
 lua
 
+<<<<<<< HEAD
+=======
+## research
+mit-scheme
+scmutils
+slib
+
+>>>>>>> refs/remotes/origin/master
 
 # Graphical user
 pidgeon-otr
