@@ -19,6 +19,12 @@ fi
 # Prompt
 #export PS1="\[\033[01;33m\][$USER@$HOSTNAME]\[\033[0;00m\] \[\033[01;32m\]\w\\$\[\033[0;00m\] "</div>
 
+## For Projects/dofFiles
+alias mystow='stow --dir=${HOME}/Projects/dotFiles/ --target=${HOME}'
+
+# sudo trick for aliases
+alias sudo='sudo '
+
 # User specific aliases and functions
 alias lha='ls -lha'
 alias lh='ls -lh'
@@ -31,6 +37,12 @@ alias mv='mv -i'
 
 alias vlock='clear; vlock'
 alias less='less -FSRX'
+
+## Tmux specific
+#alias tmux='tmux attach -t base || tmux new -s base'
+
+## Rsync specific
+alias gsync="rsync --filter=':- .gitignore'"
 
 ## Fancy man pages
 # termcap termininfo 

@@ -8,6 +8,10 @@ ssh/.ssh/known_*
 
 # IPsoft specific
 ssh/.ssh/config_ipsoft
+.*ipsoft.*
+
+## Passwords
+pass/
 
 ## because I cannot use includes
 ssh/.ssh/config
