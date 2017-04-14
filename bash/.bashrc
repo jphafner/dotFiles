@@ -22,6 +22,9 @@ fi
 ## For Projects/dofFiles
 alias mystow='stow --dir=${HOME}/Projects/dotFiles/ --target=${HOME}'
 
+## space
+alias ducks='du -cks * | sort -rn | head'
+
 # sudo trick for aliases
 alias sudo='sudo '
 

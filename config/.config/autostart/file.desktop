@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=WmCtrl Startup
+Type=Application
+Exec=${HOME}/bin/wmctrl.sh
+Terminal=false
+X-GNOME-Autostart-enabled=true
+Comment=https://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
