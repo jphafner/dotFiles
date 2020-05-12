@@ -36,7 +36,7 @@ gnome-terminal -t mytitle; wmctrl -r mytitle -t 3
 # To move a windows based on its ID instead of title, specified with -i.
 wmctrl -i -r 0x03000003 -t 2
 
-#This does move and resize Firefox to 0,0 with a width of 1024 and height 768. 
+#This does move and resize Firefox to 0,0 with a width of 1024 and height 768.
 #However as soon as I click anywhere within the Firefox window or activate it it jumps 15 pixels to the right.
 wmctrl -r 0x02e00080 -e 0,0,0,1024,768 -i
 
